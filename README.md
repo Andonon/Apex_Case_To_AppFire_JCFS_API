@@ -93,6 +93,7 @@ Before you can install, some Salesforce configuration is needed.
 * Add a field on Case Jira_Id__c. This is a field that is updated by the AppFire connection.
 * Setup AppFire to update the Case Jira_Id__c field as it's related "ID".
 * Add a field on Case, Date/Time, "Jira AppFire Create Apex Ran", Jira_AppFire_Create_Apex_Ran__c. This will be used to prevent duplicate calls to the JCFS tool, and to track the date/time we made that call.
+* The test class references two record types that you will need to create, or change the code. "Technical Support" and "Training Help Desk". 
 
 ### Custom Metadata Record "Config"
 * Salesforce | Setup | Custom Metadata Settings
@@ -108,6 +109,7 @@ Before you can install, some Salesforce configuration is needed.
 
 * VSCode with the Salesforce CLI
 * Salesforce Dev Environment
+* JCFS App Installed from App Exchange. https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000E7xufEAB
 
 ### Installing
 
