@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue_ID__c</fullName>
+    <description>Issue ID is the Issue Type. MCG has 20 or 30 when this was built.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The Issue Id comes from the connected Jira Environment. The Jira Admin will give you this. This setting should be confirmed and updated when using in Sandbox. This setting is confgiured for Production after a Sandbox Refresh.</inlineHelpText>
+    <label>Issue ID</label>
+    <length>5</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

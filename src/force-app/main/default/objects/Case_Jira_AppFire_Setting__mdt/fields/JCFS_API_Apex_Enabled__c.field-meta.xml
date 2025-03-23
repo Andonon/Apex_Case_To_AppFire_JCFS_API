@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JCFS_API_Apex_Enabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Controls if the JCFS API is called via Apex. Created 3/21/2025 TCE</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Check this to use the JCFS.API Apex Triggers. If disabled, all of the Apex Code is skipped, simimar to if there were not config settings. If you are having trouble with API or Apex related to this is broken, try to disable this setting.</inlineHelpText>
+    <label>JCFS API Apex Enabled</label>
+    <type>Checkbox</type>
+</CustomField>

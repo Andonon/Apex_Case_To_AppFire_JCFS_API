@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used for Custom Settings that affect APEX for the MCG Case Escalation work that uses the AppFire Jira Integration. Case 00391891 TCE 3/11/2025</description>
+    <label>Case Jira AppFire Setting</label>
+    <pluralLabel>Case Jira AppFire Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

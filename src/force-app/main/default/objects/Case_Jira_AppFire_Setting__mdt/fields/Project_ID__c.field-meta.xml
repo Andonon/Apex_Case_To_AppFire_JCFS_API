@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_ID__c</fullName>
+    <description>Used for Custom Settings that affect APEX for the MCG Case Escalation work that uses the AppFire Jira Integration. Case 00391891 TCE 3/11/2025</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>The Project Id comes from the connected Jira Environment. The Jira Admin will give you this. This setting should be confirmed and updated when using in Sandbox. This setting is confgiured for Production after a Sandbox Refresh.</inlineHelpText>
+    <label>Project ID</label>
+    <length>5</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

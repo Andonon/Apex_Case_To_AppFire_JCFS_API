@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_Sandbox_to_Send__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This should always be set to False unless you are testing. This will cause the sandbox to send to the configured installed package JCFS.API. Default is disabled. Created 03/21/2025 TCE</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Check this to allow the Sandbox to send API messages to the installed JCFS.API package. The JCFS.API package should be connected to a Jira Sandbox. The default for this setting is false. This setting should be disabled when not in use. This setting should be disabled in Production.</inlineHelpText>
+    <label>Allow Sandbox to Send</label>
+    <type>Checkbox</type>
+</CustomField>
